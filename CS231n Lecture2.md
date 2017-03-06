@@ -12,22 +12,22 @@
 
 1. Viewpoint Variation: zoom, shift, all pattern is changed 
 
-2.     Illumination:brightness value
+2. Illumination:brightness value
 
 
-3.     Deformation:for example, strange images 
+3. Deformation:for example, strange images 
 
 
-4.     Occlusion:hidden foreground object
+4. Occlusion:hidden foreground object
 
 
-5.     Backgroundclutter: how to distinguish between foreground and background
+5. Backgroundclutter: how to distinguish between foreground and background
 
 
-6.    Intra-classvariation: full species that look similar
+6. Intra-classvariation: full species that look similar
 
-      ​
-
+      
+      
 *Training example for pattern matching base on **ImageNet** – CIFAR-10: 10 labels and 50,000 training images [32x32], 10,000 test images
 
 ![table](https://donghwa-kim.github.io/picture/cs231n/l1.png)
@@ -40,7 +40,7 @@
 
 - CNNs:despite of expensive training, it is possible to test in real time.
 
-  ​
+  
 
 **Q. What is the accuracy of the nearest neighbor classifier on the training data, when using the Euclidean distance?**
 
@@ -48,7 +48,7 @@
 
 - We’re always find a training example exactly on top of that test which has 0distance, according to data manifold.
 
-  ​
+  
 
 **Q. What if using Manhattan distance instead?**
 
@@ -108,7 +108,7 @@
 
 - We must find data manofold what you want to do, jittering, rotating and separating out, for example, all the cars and non-cars.
 
-  ​
+  
 
 **Q. What would be a very hard set of classes for a linear classifier todistinguish?**
 
