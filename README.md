@@ -2,4 +2,4 @@
 
 These are summerized from CS231n Lecture focused on tips for modeling
 
-\textbf{Lecture 2}: Data driven approach, kNN, Linear Classification 1
+** Lecture 2: Data driven approach, kNN, Linear Classification 1
